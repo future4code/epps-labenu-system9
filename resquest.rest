@@ -1,0 +1,17 @@
+###
+# Criar estudante
+POST http://localhost:3003/student/create 
+Content-Type: application/json
+
+{
+ "name": "João Mateus", "email": "joão.mateus@gmail.com", "birthdate": "04/07/1995"
+}
+
+###
+# Criar professor 
+POST http://localhost:3003/teacher/create 
+Content-Type: application/json
+
+{
+ "name": "Pedro Darvas", "email": "darvas@gmail.com", "birthdate": "03/07/1998"
+}
