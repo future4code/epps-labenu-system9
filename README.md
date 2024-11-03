@@ -18,16 +18,37 @@ Ele deve possuir, ao menos, as 3 entidades importantes:
 
     O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
 
-As funcionalidades básicas são:
 
-→ Criar estudante;
+As funcionalidades são:
 
-→ Criar docente;
+→ POST Criar estudante;
 
-→ Criar turma;
+→ POST Criar docente;
 
-→ Adicionar estudante na turma;
+→ POST Criar turma;
 
-→ Adicionar docente na turma;
+→ PUT Adicionar estudante na turma;
 
-→ Pegar a idade de algum estudante a partir do id
+→ PUT Adicionar docente na turma;
+
+→ GET Pegar a idade de algum estudante a partir do id;
+
+→ GET Exibir todos os estudantes;
+
+→ GET Exibir todos os docentes;
+
+→ GET Exibir todas as turmas;
+
+→ GET Exibir estudantes de uma turma;
+
+→ GET Exibir docentes de uma turma;
+
+→ GET Exibir estudantes que possuam o mesmo hobby;
+
+→ DELETE Remover estudante de uma turma;
+
+→ DELETE Remover docente de uma turma;
+
+→ DELETE Remover estudante;
+
+→ PUT Mudar módulo da turma;
